@@ -1,0 +1,66 @@
+/* custom CSS styles */
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background: #f15a22;
+}
+
+.button {
+	background-color: #5F2D8C;
+	border-color: #f15a22;
+	color: white;
+}
+.button:hover, .button:focus {
+	background-color: #f15a22;
+}
+header h2 {
+	font-weight: normal;
+	padding-top: 1em;
+	font-size: 2em;
+	text-transform: none;
+}
+.panel {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 2em;
+	color: #f15a22;
+	background-color: #fff;
+
+}
+.bottomspace {
+	margin-bottom: 2em;
+}
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
+	color: #f15a22;	
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #f15a22;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+article {
+	padding-bottom: 2em;
+}
+article .left {
+	padding: 0 1em 1em 0;
+}
+article .right {
+	padding: 0 0 1em 1em;
+}
+.topspace {
+	padding-top: 3em;
+}
+.topspace p {
+	font-size: 0.8em;
+	color: #999;
+	font-family: Georgia, serif;
+	font-style: italic;
+}
+footer {
+	padding: 2em 0;
+	color: #999;
+	border-top: 1px solid #ccc;
+}
+footer p {
+	font-size: 0.8em;
+}
